@@ -1,0 +1,127 @@
+h1{
+    color: rgb(104, 57, 14);
+    background-image: url(fundo_cab.jpg);
+    background-size: 875px 75px;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    font-size: 50px;
+    font-family: sans-serif;
+    
+    
+}
+h2{
+    color: rgb(104, 57, 14);
+    font-size: 50px;
+    font-family: sans-serif;
+    
+}
+nav {
+    display: block;
+    padding-left: 15px;
+    
+  }
+#menu li:hover{
+    background-color: rgb(155, 154, 153);
+    cursor: pointer;
+}
+#menu li{
+    background-color: rgb(143, 92, 26);
+    border-radius: 12px;
+    padding: 7px 53px;
+    list-style-type: none;
+    float: left;
+    border: 1px solid black; 
+}
+#minmenu li{
+    float: initial;
+    
+}
+#minmenu{
+    position: relative;
+    padding: 0px;
+    margin-right: 20px;
+    right: 90px;
+    bottom: 5px;
+
+}
+#menu li:hover ul {
+    display: block;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+} 
+#menu li ul { display: none; }
+#meni p{
+    background-color: rgb(243, 116, 12);
+    padding: 7px 0px;
+    list-style-type: none;
+    border: 1px solid black; 
+    border-radius: 2px;
+    float: initial;
+    margin: 0px;
+    width: 125px;
+    padding: 0px;
+}
+nav{
+   margin-bottom: 80px;
+}
+#meni {
+    width: 125px;
+    height: 700px;
+    background-image: url(menu_esq_bg.jpg);
+    
+}
+#desta{
+    position: relative;
+    left: 150px;
+    top: -750px;
+   
+}
+#taque {
+    position: relative;
+    left: 200px;
+    top: -780px;
+    width:500px;
+    }
+aside{
+    position: relative;
+    left: 800px;
+    top: -1000px;
+    width: 200px;
+    
+}
+table{
+    border-collapse: collapse;
+}
+#top table{
+    
+        border: 1px solid black;
+border-collapse: collapse;
+width: 150px;
+height: 100px;
+}
+#top{
+    width: 200px;
+}
+#fundo{
+    position: relative;
+    top: -1650px;
+    left: 1000px;
+    padding-top: 500px;
+    
+    width: 75px;
+    background-image: url(fundo3.jpg);
+}
+body{
+    height: 1000px;
+}
+#foot{
+    position: relative;
+    top: -1675px;
+    left:125px;
+    width: 825px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
